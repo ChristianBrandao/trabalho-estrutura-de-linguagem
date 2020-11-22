@@ -77,13 +77,11 @@ execução)
 ```diff
 Biblioteca **import** 'dart:async'
 
-**Objeto Future:** Representa um cálculo cujo valor de retorno pode ainda não estar disponível. O Future retorna o
+**Objeto Future:** Representa um cálculo cujo valor de retorno pode ainda não estar disponível. O Future retorna o valor do cálculo quando for concluído em algum momento no futuro.
 
-valor do cálculo quando for concluído em algum momento no futuro.
+Future main() async{  // Future declarado para informar uma função que retorna um valor futuro
 
-Future main() async{*// Future declarado para informar uma função que retorna um valor futuro*
-
-String URL = 'https://jsonplaceholder.typicode.com/posts'; *//Obter dados da web*
+String URL = 'https://jsonplaceholder.typicode.com/posts'; *//Obter dados da web
 
 Dio dio = new Dio(); *//função DIO faz a requisição http*
 
@@ -101,13 +99,9 @@ print("Programa em execuçao 2");
 
 print("Fim programa");
 
-await Future.delayed(Duration(seconds:1));//programa espera a conclusão da tarefa em segundo plano em
-
-deley de 1 seg
+await Future.delayed(Duration(seconds:1));//programa espera a conclusão da tarefa em segundo plano em deley de 1 seg
 
 }
-
-&nbsp;
 ```
 
 **Link slide apresentacao** : https://docs.google.com/presentation/d/1goqsSyri_x9uyAsAjh3am3YpW_QhYiEnlWN6ICaB2Ng/edit?usp=sharing
