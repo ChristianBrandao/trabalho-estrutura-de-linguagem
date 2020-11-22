@@ -3,7 +3,6 @@
 ## Desenvolvida pela Google, foi criada para construções de aplicativos em múltiplas plataformas. ##
 &nbsp;
 
-[[_TOC_]]
 
 ### Linha do tempo ###
 
@@ -82,11 +81,11 @@ Biblioteca **import** 'dart:async'
 
 valor do cálculo quando for concluído em algum momento no futuro.
 
-Future main() async{ // Future declarado para informar uma função que retorna um valor futuro
+Future main() async{*// Future declarado para informar uma função que retorna um valor futuro*
 
-String URL = 'https://jsonplaceholder.typicode.com/posts'; //Obter dados da web
+String URL = 'https://jsonplaceholder.typicode.com/posts'; *//Obter dados da web*
 
-Dio dio = new Dio(); //função DIO faz a requisição http
+Dio dio = new Dio(); *//função DIO faz a requisição http*
 
 print("Inico programa");
 
