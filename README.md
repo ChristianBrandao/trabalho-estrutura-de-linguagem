@@ -3,7 +3,7 @@
 ## Desenvolvida pela Google, foi criada para construções de aplicativos em múltiplas plataformas. ##
 &nbsp;
 
-[[TODO]]
+[[_TOC_]]
 
 ### Linha do tempo ###
 
@@ -75,7 +75,7 @@ execução)
 
 &nbsp;
 
-
+```diff
 Biblioteca **import** 'dart:async'
 
 **Objeto Future:** Representa um cálculo cujo valor de retorno pode ainda não estar disponível. O Future retorna o
@@ -109,5 +109,6 @@ deley de 1 seg
 }
 
 &nbsp;
+'''
 
 **Link slide apresentacao** : https://docs.google.com/presentation/d/1goqsSyri_x9uyAsAjh3am3YpW_QhYiEnlWN6ICaB2Ng/edit?usp=sharing
