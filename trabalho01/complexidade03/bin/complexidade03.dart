@@ -32,7 +32,7 @@ class HomeBloc {
 
 void main()  async{
   final home = HomeBloc();
-  String UF = "SC";
+  String UF = "BA";
   //Abaixo foi usado Listen para ouvir os dados
   await home.getList("https://servicodados.ibge.gov.br/api/v1/localidades/estados/${UF}/municipios").listen((event) {
     for (var i in event) {
