@@ -5,7 +5,7 @@ import 'Post.dart';
 //Future & Stream
 //Programacao reativa
 //Criar uma fonte de dados que gera uma sequência de elementos de dados de forma assíncrona.
-//Exemplo prático e importante para Regra de negócio com a view
+//Exemplo prático e importante para Regra de negócio com a view (Web ou APP)
 //Esse programa receber um API do IBGE, exibi todas as cidades (Microregião e Região) e mostra a quantidade de cidades
 
 class HomeBloc {
